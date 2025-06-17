@@ -1,57 +1,63 @@
-E-Commerce Sales & Profit Analysis
-Exploratory Data Analysis (EDA) project to derive actionable insights from retail sales data
+# E-Commerce Sales & Profit Analysis (EDA Project)
 
-Objective
-To analyze sales, profit, discounting strategies, and customer segments to help stakeholders make better decisions in pricing, product strategy, and regional targeting.
+A detailed data analysis project on the Global Superstore dataset to explore trends, profits, discounts, customer segments, and actionable business strategies.
 
-Dataset
-Global Superstore dataset (Kaggle) with:
+---
 
-10,000+ order records
+## Objective
 
-Multi-category, multi-region retail sales
+To uncover insights that can help stakeholders optimize product strategy, pricing, and operations by analyzing sales, profit, discounts, customer segments, and geographic performance.
 
-Features like: order dates, shipping modes, customer segments, discounts, sales, profit
+---
 
-Key Questions Explored
-Category	                                                                                       Sample Questions
-Category & Sub-Category                                                        Top categories by sales/profit? High loss products?
-Time Trends	                                                                   How do sales/profit trend monthly?
-Customer Segments                                                              Which segments are most profitable?
-Discount Impact	                                                               Are discounts helping or hurting profit?
-Shipping Modes	                                                               Which shipping modes are fastest/profitable?
-Geo Insights                                                                   Which states/regions are driving sales or losses?
-Product Strategy	                                                             Products with high sales but low/no profit?
-Business Thinking	                                                             Where should the business cut losses or invest more?
+## Dataset
 
+- **Source:** Kaggle (Global Superstore Dataset)  
+- **Records:** 9,994 orders  
+- **Features:** Order info, product category, customer segments, location, sales, profit, shipping, discount, and more.
 
-Tools & Libraries Used
-Python
-Pandas, NumPy
-Seaborn, Matplotlib
-Google Colab
+---
 
-Business Takeaways (from EDA)
+## Key Questions Explored
 
-Standard Class is the most frequently chosen shipping mode across all orders.
+- What is the distribution of orders across segments (Consumer, Corporate, Home Office)?
+- What’s the average shipping duration across all orders?
+- What are the top 5 sub-categories by sales and profit?
+- Which categories or sub-categories are generating losses despite high sales?
+- What is the profit margin (profit/sales) for each category and sub-category?
+- Which regions and states contribute the most to sales and profit?
+- Top States by Profit and Loss
+- How does shipping mode impact delivery time and profitability?
+- Time-Based Sales & Profit Trends
 
-The Consumer segment dominates in order volume, followed by Corporate and Home Office.
+---
 
-The average shipping duration is around 4 days — potential room for delivery speed optimization.
+## Visual Explorations
 
-Phones are the highest-selling sub-category by volume.
+### 1. Monthly Sales vs Profit Trend
+- **Insight:** Sales show a positive trend across time.
+- **Observation:** Profit plateaus toward the end, despite high sales.
 
-Furniture shows good sales figures but contributes very little to profit — a red flag for product strategy.
+### 2. Top Sub-Categories by Sales and Profit
+- Phones dominate sales.
+- Office Supplies yield the highest profits.
+- Furniture has decent sales but poor profitability.
 
-Office Supplies have the highest profit margins — opportunity to scale this category.
+### 3. Discount vs Profit
+- Clear negative correlation between discount and profit in most categories.
 
-The West region leads in overall sales.
+---
 
-California and New York are top-performing states in both sales and profit.
+## Business Takeaways
 
-Texas and Ohio are consistent loss-making regions — need strategic attention or cost control.
-
-Sales have been increasing year-on-year, with strong growth in the last quarter. However, recent months show saturated profits despite high sales.
-
-Discounts are negatively impacting profitability in most categories — rethink discounting policies.
-
+- **Standard Class** is the most frequently chosen shipping mode across all orders.
+- The **Consumer** segment dominates in order volume, followed by Corporate and Home Office.
+- The **average shipping duration** is ~4 days — potential delivery optimization area.
+- **Phones** are the highest-selling sub-category by volume.
+- **Furniture** shows good sales but contributes very little to profit — needs review.
+- **Office Supplies** have the **highest profit margins** — good area to scale.
+- The **West region** leads in overall sales.
+- **California and New York** top both in sales and profitability.
+- **Texas and Ohio** are consistent loss-making regions.
+- **Year-end months (Oct–Dec)** show higher sales and profit; however, recent months show profit saturation.
+- **Discounts**
