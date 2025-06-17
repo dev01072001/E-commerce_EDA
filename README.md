@@ -60,4 +60,12 @@ To uncover insights that can help stakeholders optimize product strategy, pricin
 - **California and New York** top both in sales and profitability.
 - **Texas and Ohio** are consistent loss-making regions.
 - **Year-end months (Oct–Dec)** show higher sales and profit; however, recent months show profit saturation.
-- **Discounts**
+ **Discounts are hurting profit margins** — reconsider discount strategies.
+
+---
+
+## Tools Used
+
+- Python (Pandas, NumPy)
+- Seaborn & Matplotlib for visualizations
+- Jupyter Notebook & Google Colab
